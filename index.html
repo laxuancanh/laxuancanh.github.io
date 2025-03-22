@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="La Xuan Canh, la xuan canh, LXC.github.io, lã Xuân Cảnh, lã xuân cảnh"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link href="assets/css/styles.css" rel="stylesheet">
+<link href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <title>Wellcome</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Lã Xuân Cảnh</a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+    <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color"><span class="typedText"></span><br></h1>
+        <a href="#" class="button" onclick="showPopup()">Contact</a>
+    </div>
+    <div class="home__social">
+        <a href="https://facebook.com/lxc.hihi" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+        <a href="https://instagram.com/_xuazn.carhn_" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+        <a href="https://t.me/lxc.huhu" class="home__social-icon"><i class='bx bxl-telegram' ></i></a>
+        <a href="https://github.com/lxc1611" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+    </div>
+
+    <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0" mask-type="alpha">
+                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+            </g>
+        </svg>
+    </div>
+</section>
+
+<!-- Popup -->
+<div id="message-popup" class="popup-container hidden">
+    <div class="popup-content">
+        <h3>Contact Us</h3>
+        <p>Choose your preferred messaging platform:</p>
+        <div class="popup-buttons">
+            <a href="https://t.me/lxc.huhu" target="_blank" class="popup-btn telegram-btn">
+                <i class="fab fa-telegram-plane"></i> Telegram
+            </a>
+            <a href="https://m.me/lxc.hihi" target="_blank" class="popup-btn messenger-btn">
+                <i class="fab fa-facebook-messenger"></i> Messenger
+            </a>
+        </div>
+        <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+</div>
+
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Lã Xuân Cảnh</h2>
+                        <p class="about__text">I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                       frameworks and libraries,which allows me to implement interactive features.
+                       Additionally, I have experirence working with content management systems (CMS) like
+                       WordPress.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills__container bd-grid">          
+        <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">Enhance your capabilities with cutting-edge skills and proven techniques.</p>
+
+            <!-- HTML5 Skill -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-html5 skills__icon'></i>
+                    <span class="skills__name">HTML5</span>
+                </div>
+                <div class="skills__bar skills__html" data-percentage="85"></div>
+                <div>
+                    <span class="skills__percentage">0%</span>
+                </div>
+            </div>
+
+            <!-- CSS3 Skill -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-css3 skills__icon'></i>
+                    <span class="skills__name">CSS3</span>
+                </div>
+                <div class="skills__bar skills__css" data-percentage="85"></div>
+                <div>
+                    <span class="skills__percentage">0%</span>
+                </div>
+            </div>
+
+            <!-- JavaScript Skill -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxl-javascript skills__icon'></i>
+                    <span class="skills__name">JavaScript</span>
+                </div>
+                <div class="skills__bar skills__js" data-percentage="65"></div>
+                <div>
+                    <span class="skills__percentage">0%</span>
+                </div>
+            </div>
+
+            <!-- UX/UI Skill -->
+            <div class="skills__data">
+                <div class="skills__names">
+                    <i class='bx bxs-paint skills__icon'></i>
+                    <span class="skills__name">UX/UI</span>
+                </div>
+                <div class="skills__bar skills__ux" data-percentage="65"></div>
+                <div>
+                    <span class="skills__percentage">0%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+       document.addEventListener("DOMContentLoaded", function () {
+    // Hàm xử lý animation khi phần Skills vào tầm nhìn
+    function animateSkills(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                console.log('Skills section is in view'); // Debugging
+
+                const skillBars = document.querySelectorAll('.skills__bar');
+                const percentages = document.querySelectorAll('.skills__percentage');
+
+                skillBars.forEach((bar, index) => {
+                    // Reset width về 0% trước khi bắt đầu animation
+                    bar.style.width = '0%';
+                    bar.style.transition = 'none'; // Tắt transition trước khi bắt đầu
+
+                    // Đợi một chút để reset hoàn toàn, sau đó bắt đầu animation
+                    setTimeout(() => {
+                        const percentage = bar.getAttribute('data-percentage');
+                        bar.style.transition = 'width 3s ease-in-out';  // Animation chạy mượt mà
+                        bar.style.width = percentage + '%'; // Thiết lập độ rộng theo % được chỉ định
+                        
+                        // Animate phần trăm đếm lên
+                        let start = 0;
+                        const end = parseInt(percentage);
+                        const duration = 2500; // Thời gian animation (ms)
+                        const stepTime = Math.abs(Math.floor(duration / end));
+
+                        const counter = setInterval(() => {
+                            start++;
+                            percentages[index].textContent = `${start}%`;
+                            if (start >= end) {
+                                clearInterval(counter);
+                            }
+                        }, stepTime);
+                    }, 100); // Delay để reset hoàn toàn
+                });
+
+                // Ngắt quan sát sau khi animation hoàn thành để tối ưu hiệu suất
+                observer.unobserve(entry.target);
+            }
+        });
+    }
+
+    // Tạo Intersection Observer
+    const observer = new IntersectionObserver(animateSkills, {
+        root: null,          // Quan sát viewport
+        threshold: 0.2       // Kích hoạt khi 20% của phần kỹ năng xuất hiện trên màn hình
+    });
+
+    // Gắn observer vào phần Skills
+    const skillsSection = document.querySelector('#skills');
+    if (skillsSection) {
+        observer.observe(skillsSection); // Quan sát phần kỹ năng
+        console.log('Observer is set up'); // Debugging
+    } else {
+        console.log('#skills section not found'); // Debugging
+    }
+});
+
+    </script>
+
+            <section class="projects section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects__container bd-grid">
+        <div class="project-box">
+            <i class="uil uil-briefcase-alt"></i>
+            <h3>Completed</h3>
+            <label>30+ Finished Projects</label>
+        </div>
+        <div class="project-box">
+            <i class="uil uil-users-alt"></i>
+            <h3>Clients</h3>
+            <label>100+ Happy Clients</label>
+        </div>
+        <div class="project-box">
+            <i class="uil uil-award"></i>
+            <h3>Experience</h3>
+            <label>3+ Years in the field</label>
+        </div>
+    </div>
+</section>
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <form id="contact-form" class="contact__form" onsubmit="sendEmail(event)">
+            <input type="text" id="name" placeholder="Name" class="contact__input" required>
+            <input type="email" id="email" placeholder="Email" class="contact__input" required>
+            <textarea id="message" placeholder="Message" class="contact__input" rows="10" required></textarea>
+            <button type="submit" class="contact__button button">Send</button>
+        </form>
+    </div>
+</section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">La Xuan Canh</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Ho Sy Binh. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+    // Khởi tạo EmailJS với Public Key
+    emailjs.init("KxIbK_Fa5W45suEWL");
+
+    function sendEmail(event) {
+        event.preventDefault();
+
+        // Lấy dữ liệu từ form
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        // Kiểm tra nếu thiếu dữ liệu
+        if (!name || !email || !message) {
+            Swal.fire('Error', 'Please fill out all fields before sending.', 'warning');
+            return false;
+        }
+
+        // Dữ liệu gửi qua EmailJS
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            message: message
+        };
+
+        // Gửi email
+        emailjs.send("hsb_email", "template_hsb", templateParams)
+            .then(() => {
+                Swal.fire('Success', 'Your message has been sent!', 'success');
+                document.getElementById('contact-form').reset(); // Reset form
+            })
+            .catch((error) => {
+                console.error('Failed to send email:', error);
+                Swal.fire('Error', 'There was an error sending your message. Please try again.', 'error');
+            });
+    }
+</script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
